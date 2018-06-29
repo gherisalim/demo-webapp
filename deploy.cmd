@@ -19,6 +19,8 @@ IF %ERRORLEVEL% NEQ 0 (
 :: -----
 
 echo My Deployment Starts.
+echo My Deployment Starts. Using Azure CLI
+
 setlocal enabledelayedexpansion
 
 SET ARTIFACTS=%~dp0%..\artifacts
